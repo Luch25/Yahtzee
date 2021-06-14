@@ -67,6 +67,10 @@ public class Yahtzee{
         name = p1;
         isFirst = true;
       }
+
+      System.out.println("\n" + p1 + "'s score: " + s1.getScore());
+      System.out.println(p2 + "'s score: " + s2.getScore());
+
       System.out.println("\n" + name + " it is you turn.");
       for(int i = 0; i < isHeld.length; i ++){
         isHeld[i] = false;
